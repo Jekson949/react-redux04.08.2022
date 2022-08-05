@@ -1,5 +1,6 @@
 import React from "react";
 import TodoList from "./components/TodoList";
+import UserImg from "./components/UserImg";
 import UserList from "./components/UserList";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <UserList />
       <hr/>
       <TodoList/>
+      <UserImg/>
     </div>
   )
 }
